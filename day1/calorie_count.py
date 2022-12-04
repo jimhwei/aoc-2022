@@ -1,4 +1,4 @@
-
+# part 1
 with open('input', newline='\n') as f:
     output = [line.strip() for line in f.readlines()]
     
@@ -14,3 +14,6 @@ for i in output:
         # print(num)
 
 print(max(lst))
+
+# part 2
+print(sum(sorted(lst)[-3:]))
